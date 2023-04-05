@@ -140,7 +140,7 @@ const EventCard: React.FC<IEventCardProps> = ({
         </Detail>
 
         <CardImage
-          src={`/images/events/${image}`}
+          src={`/images/${image}`}
           width={300}
           height={216}
           alt={image}
@@ -148,7 +148,7 @@ const EventCard: React.FC<IEventCardProps> = ({
       </Content>
 
       <CardBackImage
-        src={`/images/events/${image}`}
+        src={`/images/${image}`}
         width={600}
         height={600}
         alt={`back-${image}`}
