@@ -1,16 +1,15 @@
 import React from 'react';
 import { AppContainer, ContentContainer } from './styles';
-// import { Header } from './Header';
-
-interface LayoutProps {
+import Header from '../modules/Header';
+interface ILayoutProps {
     children: React.ReactNode;
 }
 
-const Layout: React.FC<LayoutProps> = (props:LayoutProps) => {
+const Layout: React.FC<ILayoutProps> = (props:ILayoutProps) => {
     const { children } = props;
     return(
         <AppContainer>
-            
+            <Header/>
             <ContentContainer>
                 { children }
             </ContentContainer>
