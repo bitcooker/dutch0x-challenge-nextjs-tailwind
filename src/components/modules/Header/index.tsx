@@ -29,11 +29,7 @@ const Header: React.FC = () => {
       <Logo src="/images/logo.svg" width={145} height={36} alt="Logo" />
       <NavBar>
         {navs.map((nav: TNav) => (
-          <NavItem
-            key={nav.slug}
-            href={nav.path}
-            active={router.asPath === nav.slug ? 1 : 0}
-          >
+          <NavItem key={nav.slug} active={router.asPath === nav.slug ? 1 : 0}>
             {nav.text}
             {nav.slug === 'marketplace' && (
               <ComingSoon>Comming Soon</ComingSoon>

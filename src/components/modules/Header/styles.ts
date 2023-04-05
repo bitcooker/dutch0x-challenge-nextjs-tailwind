@@ -19,8 +19,8 @@ export const NavBar = styled.nav.attrs({
   className: 'space-x-8 px-8 flex items-center',
 })``;
 
-export const NavItem = styled(Link).attrs({
-  className: 'relative text-black/60 hover:text-black',
+export const NavItem = styled.div.attrs({
+  className: 'relative text-black/60 hover:text-black cursor-pointer',
 })`
   && {
     ${(p: INavLinkProps) => p.active && 'color: black; font-weight: 700;'}
