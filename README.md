@@ -4,8 +4,9 @@ Landing page made with Next.js, Tailwind CSS.
 
 ## Design
 
-https://www.figma.com/file/eIZ5KNKgIuNQi95vTlB2u6/DUTCH0x-for-Developer?node-id=0%3A1&t=hSLumaZhBfnW83Iy-0
-https://www.figma.com/proto/eIZ5KNKgIuNQi95vTlB2u6/DUTCH0x-for-Developer?node-id=1%3A106&scaling=min-zoom&page-id=0%3A1
+* https://www.figma.com/file/eIZ5KNKgIuNQi95vTlB2u6/DUTCH0x-for-Developer?node-id=0%3A1&t=hSLumaZhBfnW83Iy-0
+
+* https://www.figma.com/proto/eIZ5KNKgIuNQi95vTlB2u6/DUTCH0x-for-Developer?node-id=1%3A106&scaling=min-zoom&page-id=0%3A1
 
 ## How to Run
 
